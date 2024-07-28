@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background: linear-gradient(to right, yellow, white);
+}
+
+header{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+}
+
+#content{
+    background: linear-gradient(to right,grey,white);
+    height: 500px;
+    width: 400px;
+    border: solid 2px black;
+    overflow-y: auto;
+}
+
+#clickMe{
+    position: relative;
+    left: -20px;
+    background-color: white;
+    color: black;
+    transition: all;
+    transition-duration: 200ms;
+}
+
+#clickMe:hover{
+    scale: 1.06;
+    background-color: black;
+    color: white;
+}
+
+#clickMe:active{
+    scale: 1.01;
+}
+
+#img{
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+}
